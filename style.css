@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: bisque;
+    color: black;
+  }
+  
+  nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .logo {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+    background-color: pink;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+    background-color: pink;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: pink;
+  }
+
+  p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  
+  .writings {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+  }
+
+  .writing_body {
+    text-align: left;
+    font-size: 20px;
+    text-indent: 30px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
