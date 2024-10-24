@@ -1,0 +1,115 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(194, 209, 240);
+    font-style: normal;
+    color: rgb(240, 113, 114);
+  }
+  
+  nav {
+    height: 100px; /* Increased height for better visibility */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.20rem; /* Increased font size for all elements in the nav */
+    background-color: rgb(194, 209, 240);
+    padding: 0 2rem; /* Added padding for spacing */
+  }
+  
+  .logo {
+    color: rgb(240, 113, 114); /* Changed color for visibility */
+    font-size: 2.5rem; /* Increased the logo size */
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(194, 209, 240);
+    padding: 0 1.5rem;
+    background-color: rgb(240, 113, 114);
+    font-size: 1.20rem; /* Increased font size for nav links */
+  }
+  
+  nav a:hover {
+    color: rgb(247, 193, 85);
+  }
+  
+  h1 {
+    text-align: left;
+    font-size: 50px;
+    background-color: rgb(194, 209, 240);
+    color: rgb(240, 113, 114);
+    padding: 0 20%;
+  }
+  
+  h2 {
+    text-align: right;
+    font-size: 2.0rem;
+    background-color: rgb(194, 209, 240);
+    color: rgb(240, 113, 114);
+    padding: 0 20%;
+  }
+  
+  p {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0 20%;
+    margin-bottom: 2rem;
+    color: rgb(240, 113, 114);
+  }
+  
+  h2 a {
+    color: rgb(240, 113, 114);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+  
+    .logo {
+        font-size: 1.6rem; /* Further reduced font size for mobile */
+        padding: 0.5rem 0;
+    }
+  
+    nav a {
+        padding: 0.5rem 0;
+        font-size: 0.9rem; /* Further reduced font size for nav links */
+    }
+  
+    h1 {
+        font-size: 2rem; /* Further reduced font size for mobile */
+        padding: 0 8%; /* Adjusted padding for better fit */
+    }
+  
+    h2 {
+        font-size: 1.3rem; /* Reduced font size for mobile */
+        text-align: center; /* Centered for consistency */
+        padding: 0 8%; /* Adjusted padding for a better fit */
+    }
+  
+    p {
+        font-size: 1rem; /* Further reduced font size for mobile */
+        padding: 0 8%; /* Adjusted padding for better display */
+    }
+  }
+  
+  /* Additional Classes */
+  .wrap-right, .wrap-left {
+      float: none;
+      margin: 5px 0;
+  }
+  
+  .img-container {
+      padding-bottom: 2rem;
+  }
+  

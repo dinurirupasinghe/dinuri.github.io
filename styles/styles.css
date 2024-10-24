@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(194, 209, 240);
+    font-style: normal;
+    color: rgb(240, 113, 114);
+}
+
+nav {
+    height: 100px; /* Increased height for better visibility */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.20rem; /* Increased font size for all elements in the nav */
+    background-color: rgb(194, 209, 240);
+    padding: 0 2rem; /* Added padding for spacing */
+}
+
+.logo {
+    color: rgb(240, 113, 114); /* Changed color for visibility */
+    font-size: 2.5rem; /* Increased the logo size */
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(194, 209, 240);
+    padding: 0 1.5rem;
+    background-color: rgb(240, 113, 114);
+    font-size: 1.20rem; /* Increased font size for nav links */
+}
+
+nav a:hover {
+    color: rgb(247, 193, 85);
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    background-color: rgb(194, 209, 240);
+    color: rgb(240, 113, 114);
+    padding: 0 20%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 2.0rem;
+    background-color: rgb(194, 209, 240);
+    color: rgb(240, 113, 114);
+    padding: 0 20%;
+}
+
+p {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0 20%;
+    margin-bottom: 2rem;
+    color: rgb(240, 113, 114);
+}
+
+h2 a {
+    color: rgb(240, 113, 114);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .logo {
+        font-size: 2rem; /* Adjusted font size for mobile */
+        padding: 1rem 0;
+    }
+
+    nav a {
+        padding: 0.5rem 0;
+        font-size: 1.20rem; /* Match desktop font size for nav links */
+    }
+
+    h1 {
+        font-size: 3rem; /* Adjusted font size for mobile to ensure visibility */
+        padding: 0 10%; /* Reduced padding for better mobile display */
+    }
+
+    h2 {
+        font-size: 2rem; /* Adjusted font size for mobile to match desktop */
+        padding: 0 10%; /* Reduced padding for better mobile display */
+    }
+
+    p {
+        font-size: 1.5rem; /* Kept the same as desktop */
+        padding: 0 10%; /* Reduced padding for better mobile display */
+    }
+}
